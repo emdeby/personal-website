@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "JetBrainsMono"
+}
+
+body {
+    background-color: #161616;
+    color: white;
+    font-family:
+        JetBrainsMono,
+        monospace;
+}
+
+.back-button {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    display: inline-block;
+    transition: letter-spacing 0.1s ease, padding 0.4s ease;
+}
+
+.back-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #161616;
+    letter-spacing: 5px;
+    transition: letter-spacing 0.2s ease, padding 0.4s ease;
+    padding: 0% 97.75% 0% 0%;
+}

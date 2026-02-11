@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "JetBrainsMono"
+}
+
+body {
+    background-color: #161616;
+    color: white;
+    font-family:
+        JetBrainsMono,
+        monospace;
+}
+
+.everything-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-text-svg {
+    transform: scale(2.5);
+    margin-left: 550px;
+}
+
+li a {
+    color: rgb(224, 224, 224);
+    font-size: 35px;
+    font-weight: 200;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.2em;
+    background-color: rgb(44, 44, 44);
+    padding-left: 5px;
+    transition: padding 0.4s ease;
+}
+
+
+li a:hover {
+    font-weight: 350;
+    color: rgb(44, 44, 44);
+    background-color: rgb(224, 224, 224);
+    padding: 0px 35px 0px 30px;
+    transition: padding 0.4s ease;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    scale: 0.7;
+}
+
+.projects-wrapper a {
+    padding: 0px 5px 0px 5px;
+    scale: 1.2;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 200;
+    transition: letter-spacing 0.3s ease;
+}
+
+.projects-wrapper a:hover {
+    transition: letter-spacing 0.4s ease;
+    background-color: rgb(255, 255, 255);
+    color: #161616;
+    padding: 0px 10px 0px 10px;
+    letter-spacing: 10px;
+}
+
+.gallery-wrapper a {
+    padding: 0px 5px 0px 5px;
+    scale: 1.2;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 200;
+    transition: letter-spacing 0.3s ease;
+}
+
+.gallery-wrapper a:hover {
+    transition: letter-spacing 0.4s ease;
+    background-color: rgb(255, 255, 255);
+    color: #161616;
+    padding: 0px 10px 0px 10px;
+    letter-spacing: 10px;
+}
