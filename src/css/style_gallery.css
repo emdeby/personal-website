@@ -25,27 +25,50 @@ body {
     padding: 0% 97.75% 0% 0%;
 }
 
+h1 {
+    transition: letter-spacing 0.2s ease;
+}
+
+h1:hover {
+    letter-spacing: 10px;
+    transition: letter-spacing 0.2s ease;
+}
+
 .graphic-design-wrapper img {
     transition: transform 0.1s ease;
     width: 300px;
-}
-
-.graphic-design-wrapper img:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s ease;
+    border: 0.5px solid transparent;
 }
 
 .photography-wrapper img.landscape {
     transition: transform 0.1s ease;
     width: 500px;
+    border: 0.5px solid transparent;
 }
 
 .photography-wrapper img.portrait {
     transition: transform 0.1s ease;
     width: 223px;
+    border: 0.5px solid transparent;
 }
 
-.photography-wrapper img:hover {
+.graphic-design-wrapper img:not(.focus-image):hover,
+.photography-wrapper img:not(.focus-image):hover {
     transform: scale(1.1);
     transition: transform 0.1s ease;
+    border: 0.5px solid white;
+}
+
+.graphic-design-wrapper img.focus-image:hover,
+.photography-wrapper img.focus-image:hover {
+    border: 0.5px solid white;
+}
+
+.focus-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    z-index: 999;
+    display: block;
 }

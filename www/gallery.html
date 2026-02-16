@@ -11,17 +11,29 @@
     <hr width="100%" color="#C2C2C2" size="1">
     <h1>PHOTOGRAPHY</h1>
     <div class="photography-wrapper">
-      <img src="../src/assets/photo1.jpg" alt="photo1.jpg" class="landscape">
-      <img src="../src/assets/photo2.jpg" alt="photo2.jpg" class="portrait">
-      <img src="../src/assets/photo3.jpg" alt="photo3.jpg" class="portrait">
+      <img src="../src/assets/photo1.jpg" alt="photo1.jpg" class="landscape" onclick="zoom(this)">
+      <img src="../src/assets/photo2.jpg" alt="photo2.jpg" class="portrait" onclick="zoom(this)">
+      <img src="../src/assets/photo3.jpg" alt="photo3.jpg" class="portrait" onclick="zoom(this)">
     </div>
 
     <br>
     <hr width="100%" color="#C2C2C2" size="1">
     <h1>GRAPHIC DESIGN</h1>
     <div class="graphic-design-wrapper">
-      <img src="../src/assets/poster1.jpg" alt="poster1.jpg">
-      <img src="../src/assets/poster2.jpg" alt="poster2.jpg">
+      <img src="../src/assets/poster1.jpg" alt="poster1.jpg" onclick="zoom(this)">
+      <img src="../src/assets/poster2.jpg" alt="poster2.jpg" onclick="zoom(this)">
+      <img src="../src/assets/poster3.jpg" alt="poster3.jpg" onclick="zoom(this)">
+      <img src="../src/assets/poster4.jpg" alt="poster4.jpg" onclick="zoom(this)">
+      <img src="../src/assets/poster5.jpg" alt="poster5.jpg" onclick="zoom(this)">
+      <img src="../src/assets/poster6.jpg" alt="poster6.jpg" onclick="zoom(this)">
     </div>
+
+    <!-- Scripts -->
+    <script>
+      function zoom(element) {
+        element.classList.toggle("focus-image");
+      }
+    </script>
+
   </body>
 </html>
