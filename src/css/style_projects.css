@@ -26,10 +26,5 @@ body {
 }
 
 h1 {
-    transition: letter-spacing 0.2s ease;
-}
-
-h1:hover {
     letter-spacing: 10px;
-    transition: letter-spacing 0.2s ease;
 }

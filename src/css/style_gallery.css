@@ -26,13 +26,10 @@ body {
 }
 
 h1 {
-    transition: letter-spacing 0.2s ease;
+    letter-spacing: 10px;
 }
 
-h1:hover {
-    letter-spacing: 10px;
-    transition: letter-spacing 0.2s ease;
-}
+
 
 .graphic-design-wrapper img {
     transition: transform 0.1s ease;
