@@ -1,0 +1,15 @@
+* {
+    cursor: none;
+}
+
+
+#cursor {
+  z-index: 9999;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
