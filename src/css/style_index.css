@@ -1,13 +1,8 @@
-@font-face {
-    font-family: "JetBrainsMono"
-}
-
 body {
     background-color: #161616;
     color: white;
-    font-family:
-        JetBrainsMono,
-        monospace;
+    font-family: JetBrainsMono;
+    font-weight: 400;
 }
 
 .everything-wrapper {
@@ -59,7 +54,7 @@ ul {
     color: rgb(255, 255, 255);
     text-decoration: none;
     display: inline-block;
-    font-weight: 200;
+    font-weight: 600;
     transition: letter-spacing 0.3s ease;
 }
 
@@ -78,7 +73,7 @@ ul {
     color: rgb(255, 255, 255);
     text-decoration: none;
     display: inline-block;
-    font-weight: 200;
+    font-weight: 600;
     transition: letter-spacing 0.3s ease;
 }
 

@@ -1,13 +1,10 @@
-@font-face {
-    font-family: "JetBrainsMono"
-}
-
 body {
     background-color: #161616;
     color: white;
     font-family:
         JetBrainsMono,
         monospace;
+    font-weight: 200;
 }
 
 .back-button {
@@ -27,6 +24,7 @@ body {
 
 h1 {
     letter-spacing: 10px;
+    font-weight: 600;
 }
 
 
