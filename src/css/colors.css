@@ -1,0 +1,13 @@
+body {
+    --bg-color: #161616;
+    --text-color: white;
+    --secondary-bg-color: rgb(44, 44, 44);
+    --cursor-color: white;
+}
+
+.light-mode {
+    --bg-color: white;
+    --text-color: #161616;
+    --secondary-bg-color: rgb(211, 211, 211);
+    --cursor-color: #161616;
+}

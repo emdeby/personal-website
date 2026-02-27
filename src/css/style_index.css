@@ -1,8 +1,9 @@
-body {
-    background-color: #161616;
-    color: white;
+* {
     font-family: JetBrainsMono;
-    font-weight: 400;
+}
+
+body {
+    background-color: var(--bg-color);
 }
 
 .everything-wrapper {
@@ -19,22 +20,22 @@ body {
 }
 
 li a {
-    color: rgb(224, 224, 224);
+    color: var(--text-color);
+    background-color: var(--secondary-bg-color);
     font-size: 35px;
     font-weight: 200;
     text-decoration: none;
     display: inline-block;
     letter-spacing: 0.2em;
-    background-color: rgb(44, 44, 44);
     padding-left: 5px;
     transition: padding 0.4s ease;
 }
 
 
 li a:hover {
+    color: var(--secondary-bg-color);
+    background-color: var(--text-color);
     font-weight: 350;
-    color: rgb(44, 44, 44);
-    background-color: rgb(224, 224, 224);
     padding: 0px 35px 0px 30px;
     transition: padding 0.4s ease;
 }
@@ -48,10 +49,10 @@ ul {
 }
 
 .projects-wrapper a {
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color);
     padding: 0px 5px 0px 5px;
     scale: 1.2;
-    background-color: rgb(44, 44, 44);
-    color: rgb(255, 255, 255);
     text-decoration: none;
     display: inline-block;
     font-weight: 600;
@@ -59,18 +60,18 @@ ul {
 }
 
 .projects-wrapper a:hover {
+    background-color: var(--text-color);
+    color: var(--secondary-bg-color);
     transition: letter-spacing 0.4s ease;
-    background-color: rgb(255, 255, 255);
-    color: #161616;
     padding: 0px 10px 0px 10px;
     letter-spacing: 10px;
 }
 
 .gallery-wrapper a {
+    background-color: var(--secondary-bg-color);
+    color: var(--text-color);
     padding: 0px 5px 0px 5px;
     scale: 1.2;
-    background-color: rgb(44, 44, 44);
-    color: rgb(255, 255, 255);
     text-decoration: none;
     display: inline-block;
     font-weight: 600;
@@ -78,9 +79,21 @@ ul {
 }
 
 .gallery-wrapper a:hover {
+    background-color: var(--text-color);
+    color: var(--secondary-bg-color);
     transition: letter-spacing 0.4s ease;
-    background-color: rgb(255, 255, 255);
-    color: #161616;
     padding: 0px 10px 0px 10px;
     letter-spacing: 10px;
+}
+
+.theme-button {
+    color: var(--text-color);
+    background-color: var(--secondary-bg-color);
+    border: none;
+}
+
+.theme-button:hover {
+    color: var(--bg-color);
+    background-color: var(--text-color);
+    border: none;
 }
